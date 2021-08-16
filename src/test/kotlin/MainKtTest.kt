@@ -54,7 +54,7 @@ class MainKtTest {
 
     @Test
     fun calcCommissionVisaNormal() {
-        val transferAmount = 30000
+        val transferAmount = 3000
         val previousTransfer = 78000
         val type = PaymentType.Visa
         var amount = transferAmount * 100
