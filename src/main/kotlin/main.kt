@@ -1,7 +1,7 @@
 fun main() {
-    val transferAmount = 3000
+    val transferAmount = 30000
     val previousTransfer = 78000
-    val type = PaymentType.MasterCard
+    val type = PaymentType.Visa
 
     var amount = transferAmount * 100
     val commission = calcCommission(amount, type, previousTransfer)
